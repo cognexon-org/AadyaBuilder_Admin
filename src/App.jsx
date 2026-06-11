@@ -13,6 +13,13 @@ import Reports from './pages/Reports';
 import Settings from './pages/Settings';
 import System from './pages/System';
 import Notifications from './pages/Notifications';
+import Projects from './pages/Projects';
+import Builders from './pages/Builders';
+import Locations from './pages/Locations';
+import Feedback from './pages/Feedback';
+import Shorts from './pages/Shorts';
+import Boost from './pages/Boost';
+import MobileHome from './pages/MobileHome';
 import NotFound from './pages/NotFound';
 
 function ProtectedRoute({ children }) {
@@ -40,6 +47,13 @@ export default function App() {
           <Route index element={<Dashboard />} />
           <Route path="users" element={<Users />} />
           <Route path="properties" element={<Properties />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="builders" element={<Builders />} />
+          <Route path="locations" element={<Locations />} />
+          <Route path="shorts" element={<Shorts />} />
+          <Route path="boost" element={<Boost />} />
+          <Route path="mobile-home" element={<MobileHome />} />
+          <Route path="feedback" element={<Feedback />} />
           <Route path="leads" element={<Leads />} />
           <Route path="plans" element={<Plans />} />
           <Route path="content" element={<Content />} />

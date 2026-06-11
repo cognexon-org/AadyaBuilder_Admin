@@ -5,11 +5,18 @@ import { cx } from '../utils/formatters';
 
 const navItems = [
   { to: '/', label: 'Dashboard', icon: '▣' },
+  { to: '/mobile-home', label: 'Mobile Home', icon: '📱' },
   { to: '/users', label: 'Users', icon: '👥' },
+  { to: '/builders', label: 'Builders', icon: '🏗' },
   { to: '/properties', label: 'Properties', icon: '🏢' },
+  { to: '/projects', label: 'Projects', icon: '🏘' },
+  { to: '/locations', label: 'Locations', icon: '📍' },
   { to: '/leads', label: 'Leads', icon: '☎' },
+  { to: '/shorts', label: 'Shorts', icon: '▶' },
   { to: '/plans', label: 'Plans', icon: '₹' },
+  { to: '/boost', label: 'Boost', icon: '⚡' },
   { to: '/content', label: 'Content', icon: '✎' },
+  { to: '/feedback', label: 'Feedback', icon: '★' },
   { to: '/reports', label: 'Reports', icon: '⇩' },
   { to: '/notifications', label: 'Notifications', icon: '🔔' },
   { to: '/settings', label: 'Settings', icon: '⚙' },
